@@ -69,7 +69,7 @@ export async function SpecimenCard({ humanSpecimen }: { humanSpecimen: HumanSpec
                   </h1>
                   <div className="flex gap-2 items-center justify-center">
                     <ShareOnXButton
-                      shareText={`This is what I would sound like based on my X posts using the @elevenlabsio Voice Designer`}
+                      shareText={`This is what I would sound like based on my X posts using the @elevenlabsio Voice Design`}
                     />
                     <CopyShareLink />
                   </div>
@@ -80,7 +80,7 @@ export async function SpecimenCard({ humanSpecimen }: { humanSpecimen: HumanSpec
           </div>
           <div className="flex gap-2 items-center justify-center sm:hidden">
             <ShareOnXButton
-              shareText={`This is what I would sound like based on my X posts using the @elevenlabsio Voice Designer`}
+              shareText={`This is what I would sound like based on my X posts using the @elevenlabsio Voice Design`}
             />
             <CopyShareLink />
           </div>
@@ -90,7 +90,7 @@ export async function SpecimenCard({ humanSpecimen }: { humanSpecimen: HumanSpec
               What is this?
             </h2>
             <blockquote className="border-l-2 pl-3 text-sm text-gray-700 leading-relaxed italic">
-              This fully open-source project shows what can be built with the new <Link href={"https://elevenlabs.io/docs/api-reference/ttv-create-previews"} className={"font-semibold"} target={"_blank"}>ElevenLabs Voice Designer API</Link>. We use the data from the X/Twitter profile to create a prompt for what the voice might sound like. We then create the voice using the <Link href={"https://elevenlabs.io/docs/api-reference/ttv-create-previews"} className={"underline"} target={"_blank"}>ElevenLabs Voice Design API</Link> and the video using the <Link href={"https://www.hedra.com/"} className={"underline"} target={"_blank"}>Hedra video API</Link>.
+              This fully open-source project shows what can be built with the new <Link href={"https://elevenlabs.io/docs/api-reference/ttv-create-previews"} className={"font-semibold"} target={"_blank"}>ElevenLabs Voice Design API</Link>. We use the data from the X/Twitter profile to create a prompt for what the voice might sound like. We then create the voice using the <Link href={"https://elevenlabs.io/docs/api-reference/ttv-create-previews"} className={"underline"} target={"_blank"}>ElevenLabs Voice Design API</Link> and the video using the <Link href={"https://www.hedra.com/"} className={"underline"} target={"_blank"}>Hedra video API</Link>.
             </blockquote>
           </div>
           <div className="mt-4">
